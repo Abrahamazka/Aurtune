@@ -119,7 +119,7 @@
         <div>
             <img src="{{ asset('/build/assets/aurno2.png') }}" alt="Aurtune Logo" class="w-44 h-28 mx-auto">
         </div>
-        <div class="mx-auto max-w-6xl text-center border-t border-white/20 pt-8 pb-8">
+        <div class="mx-auto max-w-6xl text-center border-t border-white/20 pt-8 pb-8 pl-20">
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-20 text-left">
                 <div>
                     <h4 class="text-white text-sm font-semibold tracking-wide">NEED HELP</h4>

@@ -67,6 +67,15 @@
 
     <section class="px-7 py-8 border-b border-gray-200">
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 ">
+            <div class="lg:col-span-2">
+                <h2 class="text-2xl font-semibold">About this album</h2>
+                <p class="text-gray-600 mt-4 leading-relaxed">
+                        This album invites listeners into a cinematic jazz experience built around
+                        subtle improvisation, rich tonal layers, and polished arrangements. Each track
+                        unfolds with its own atmosphere, moving between gentle introspection and vibrant
+                        ensemble energy. Ideal for evening sessions, focused listening, or simply
+                        rediscovering the emotional depth of contemporary jazz.</p>
+            </div>
             <div class="lg:col-span-1">
                 <div class="rounded-md p-5 bg-gray-100 shadow-sm">
                     <h3 class="text-lg font-semibold text-center">Album Information</h3>
@@ -94,17 +103,115 @@
                     </div>
                 </div>
             </div>
-            <div class="lg:col-span-2">
-                <h2 class="text-2xl font-semibold text-right">About this album</h2>
-                <p class="text-gray-600 mt-4 leading-relaxed text-right">
-                        This album invites listeners into a cinematic jazz experience built around
-                        subtle improvisation, rich tonal layers, and polished arrangements. Each track
-                        unfolds with its own atmosphere, moving between gentle introspection and vibrant
-                        ensemble energy. Ideal for evening sessions, focused listening, or simply
-                        rediscovering the emotional depth of contemporary jazz.</p>
-            </div>
+        </div>
     </section>
 
+    <section class="px-6 py-8 border-b border-gray-200">
+            <div class="flex items-center justify-between">
+                <h2 class="text-2xl font-semibold">Tracklist</h2>
+                <p class="text-sm text-gray-500">5 tracks • 15 min</p>
+            </div>
+
+            <div class="mt-6 overflow-hidden rounded-md border border-gray-200">
+
+                <div class="grid grid-cols-12 bg-gray-50 px-4 py-3 text-sm font-semibold text-gray-600">
+                    <div class="col-span-1">#</div>
+                    <div class="col-span-8">Title</div>
+                    <div class="col-span-3 text-right">Duration</div>
+                </div>
+
+                <div class="grid grid-cols-12 items-center px-4 py-4 text-sm hover:bg-gray-50 transition-colors border-t border-gray-100">
+                    <div class="col-span-1 text-gray-500">1</div>
+                     <div class="col-span-8">
+                         <p class="font-medium">Blue Horizon</p>
+                         <p class="text-xs text-gray-500 mt-1">Aurtune Collective</p>
+                     </div>
+                    <div class="col-span-3 text-right text-gray-500">3:42</div>
+                </div>
+                <div class="grid grid-cols-12 items-center px-4 py-4 text-sm hover:bg-gray-50 transition-colors border-t border-gray-100">
+                    <div class="col-span-1 text-gray-500">2</div>
+                     <div class="col-span-8">
+                         <p class="font-medium">Blue Horizon</p>
+                         <p class="text-xs text-gray-500 mt-1">Aurtune Collective</p>
+                     </div>
+                    <div class="col-span-3 text-right text-gray-500">3:42</div>
+                </div>
+                <div class="grid grid-cols-12 items-center px-4 py-4 text-sm hover:bg-gray-50 transition-colors border-t border-gray-100">
+                    <div class="col-span-1 text-gray-500">3</div>
+                     <div class="col-span-8">
+                         <p class="font-medium">Blue Horizon</p>
+                         <p class="text-xs text-gray-500 mt-1">Aurtune Collective</p>
+                     </div>
+                    <div class="col-span-3 text-right text-gray-500">3:42</div>
+                </div>
+                <div class="grid grid-cols-12 items-center px-4 py-4 text-sm hover:bg-gray-50 transition-colors border-t border-gray-100">
+                    <div class="col-span-1 text-gray-500">4</div>
+                     <div class="col-span-8">
+                         <p class="font-medium">Blue Horizon</p>
+                         <p class="text-xs text-gray-500 mt-1">Aurtune Collective</p>
+                     </div>
+                    <div class="col-span-3 text-right text-gray-500">3:42</div>
+                </div>
+                <div class="grid grid-cols-12 items-center px-4 py-4 text-sm hover:bg-gray-50 transition-colors border-t border-gray-100">
+                    <div class="col-span-1 text-gray-500">5</div>
+                     <div class="col-span-8">
+                         <p class="font-medium">Blue Horizon</p>
+                         <p class="text-xs text-gray-500 mt-1">Aurtune Collective</p>
+                     </div>
+                    <div class="col-span-3 text-right text-gray-500">3:42</div>
+                </div>
+    </section>
 </div>
+    <footer class="bg-[#3A3A3A] text-white">
+        <div>
+            <img src="{{ asset('/build/assets/aurno2.png') }}" alt="Aurtune Logo" class="w-44 h-28 mx-auto">
+        </div>
+        <div class="mx-auto max-w-6xl text-center border-t border-white/20 pt-8 pb-8 pl-20">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-20 text-left">
+                <div>
+                    <h4 class="text-white text-sm font-semibold tracking-wide">NEED HELP</h4>
+                    <ul class="mt-4 space-y-3 text-sm">
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors">Support</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors">FAQs</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-white text-sm font-semibold tracking-wide">COMPANY</h4>
+                    <ul class="mt-4 space-y-3 text-sm">
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors">About Us</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors">Careers</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-white text-sm font-semibold tracking-wide">AURTUNE</h4>
+                    <ul class="mt-4 space-y-3 text-sm">
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors">About Us</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors">Careers</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-white text-sm font-semibold tracking-wide">FOLLOW US</h4>
+                    <ul class="mt-4 space-y-3 text-sm">
+                        <li><a href="#" class="flex items-center gap-2 text-gray-300 hover:text-white transition-colors"><img src="{{ asset('/build/assets/tiktok.png') }}" alt="Tiktok" class="inline-flex h-6 w-6 items-center justify-center">Tiktok</a></li>
+                        <li><a href="#" class="flex items-center gap-2 text-gray-300 hover:text-white transition-colors"><img src="{{ asset('/build/assets/youtube.png') }}" alt="Youtube" class="inline-flex h-6 w-6 items-center justify-center">Youtube</a></li>
+                        <li><a href="#" class="flex items-center gap-2 text-gray-300 hover:text-white transition-colors"><img src="{{ asset('/build/assets/instagram.png') }}" alt="Instagram" class="inline-flex h-6 w-6 items-center justify-center">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="mx-auto max-w-6xl px-6 text-center border-t border-white/20 pt-8">
+            <p class="text-sm">&copy; 2026 Aurtune. All rights reserved.</p>
+            <div class="mt-4 flex justify-center gap-6">
+                <a href="#" class="text-gray-300 hover:text-white transition-colors">Privacy Policy</a>
+                <a href="#" class="text-gray-300 hover:text-white transition-colors">Terms of Service</a>
+                <a href="#" class="text-gray-300 hover:text-white transition-colors">Contact Us</a>
+            </div>
+        </div>
+      </footer>
 </body>
 </html>
