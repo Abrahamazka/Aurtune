@@ -5,8 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your musical tastes</title>
     <link rel="icon" href="{{ asset('/build/assets/aurtunelogo.png') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
+<style>
+  body { font-family: "Inter", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
+  .font-display { font-family: "Playfair Display", serif; }
+</style>
 <body class="bg-[#f2f2f2] min-h-screen">
 <div class="mx-auto max-w-6xl bg-white">
 
@@ -58,7 +65,7 @@
                     <a href="#" class="text-gray-500 text-sm hover:text-black">View all</a>
                 </div>
             </div>
-                <div class="mt-4 rounded-2xl border p-6 bg-gray-50 flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+                <div class="mt-4 rounded-md border p-6 bg-gray-50 flex flex-col md:flex-row md:items-center md:justify-between gap-6">
                     <div class="flex items-center gap-5">
                         <div class="h-20 w-20 rounded-xl bg-gray-200"><img src="{{ asset('/build/assets/Hybrid.jpg') }}" alt="Album Cover" class="w-full h-auto rounded-lg"></div>
                             <div>
@@ -118,7 +125,241 @@
 
             <section>
                 <div class="bg-[#3A3A3A] mt-10 p-6 text-center">
-                   <h1 class="text-[#C8A24A]">Indonesian Albums</h1>
+                   <h1 class="text-[#C8A24A] font-display text-xl">Indonesian Albums</h1>
+                </div>
+                <div class="bg-[#f2f2f2] mx-auto max-w-6xl px-6 py-6">
+                   <div class="grid gap-x-10 gap-y-6 md:grid-cols-2 lg:grid-cols-3">
+                    <a href="" class="flex items-start gap-4 p-2 -m-2 rounded-lg ">
+                        <img src="{{ asset('/build/assets/Hybrid.jpg') }}" class="h-16 w-16 rounded shadow-sm" alt="Aurtune Logo">
+                          <div>
+                            <p class="text-xs tracking-wider text-gray-600 uppercase">NILS LANDGREN</p>
+                            <p class="text-sm font-semibold text-black">Christmas with My Friends VII</p>
+                          </div>
+                    </a>
+                    <a href="" class="flex items-start gap-4 p-2 -m-2 rounded-lg ">
+                        <img src="{{ asset('/build/assets/Hybrid.jpg') }}" class="h-16 w-16 rounded shadow-sm" alt="Aurtune Logo">
+                          <div>
+                            <p class="text-xs tracking-wider text-gray-600 uppercase">NILS LANDGREN</p>
+                            <p class="text-sm font-semibold text-black">Christmas with My Friends VII</p>
+                          </div>
+                    </a>
+                    <a href="" class="flex items-start gap-4 p-2 -m-2 rounded-lg ">
+                        <img src="{{ asset('/build/assets/Hybrid.jpg') }}" class="h-16 w-16 rounded shadow-sm" alt="Aurtune Logo">
+                          <div>
+                            <p class="text-xs tracking-wider text-gray-600 uppercase">NILS LANDGREN</p>
+                            <p class="text-sm font-semibold text-black">Christmas with My Friends VII</p>
+                          </div>
+                    </a>
+                    <a href="" class="flex items-start gap-4 p-2 -m-2 rounded-lg ">
+                        <img src="{{ asset('/build/assets/Hybrid.jpg') }}" class="h-16 w-16 rounded shadow-sm" alt="Aurtune Logo">
+                          <div>
+                            <p class="text-xs tracking-wider text-gray-600 uppercase">NILS LANDGREN</p>
+                            <p class="text-sm font-semibold text-black">Christmas with My Friends VII</p>
+                          </div>
+                    </a>
+                    <a href="" class="flex items-start gap-4 p-2 -m-2 rounded-lg ">
+                        <img src="{{ asset('/build/assets/Hybrid.jpg') }}" class="h-16 w-16 rounded shadow-sm" alt="Aurtune Logo">
+                          <div>
+                            <p class="text-xs tracking-wider text-gray-600 uppercase">NILS LANDGREN</p>
+                            <p class="text-sm font-semibold text-black">Christmas with My Friends VII</p>
+                          </div>
+                    </a>
+                    <a href="" class="flex items-start gap-4 p-2 -m-2 rounded-lg ">
+                        <img src="{{ asset('/build/assets/Hybrid.jpg') }}" class="h-16 w-16 rounded shadow-sm" alt="Aurtune Logo">
+                          <div>
+                            <p class="text-xs tracking-wider text-gray-600 uppercase">NILS LANDGREN</p>
+                            <p class="text-sm font-semibold text-black">Christmas with My Friends VII</p>
+                          </div>
+                    </a>
+                    <a href="" class="flex items-start gap-4 p-2 -m-2 rounded-lg ">
+                        <img src="{{ asset('/build/assets/Hybrid.jpg') }}" class="h-16 w-16 rounded shadow-sm" alt="Aurtune Logo">
+                          <div>
+                            <p class="text-xs tracking-wider text-gray-600 uppercase">NILS LANDGREN</p>
+                            <p class="text-sm font-semibold text-black">Christmas with My Friends VII</p>
+                          </div>
+                    </a>
+                    <a href="" class="flex items-start gap-4 p-2 -m-2 rounded-lg ">
+                        <img src="{{ asset('/build/assets/Hybrid.jpg') }}" class="h-16 w-16 rounded shadow-sm" alt="Aurtune Logo">
+                          <div>
+                            <p class="text-xs tracking-wider text-gray-600 uppercase">NILS LANDGREN</p>
+                            <p class="text-sm font-semibold text-black">Christmas with My Friends VII</p>
+                          </div>
+                    </a>
+                    <a href="" class="flex items-start gap-4 p-2 -m-2 rounded-lg ">
+                        <img src="{{ asset('/build/assets/Hybrid.jpg') }}" class="h-16 w-16 rounded shadow-sm" alt="Aurtune Logo">
+                          <div>
+                            <p class="text-xs tracking-wider text-gray-600 uppercase">NILS LANDGREN</p>
+                            <p class="text-sm font-semibold text-black">Christmas with My Friends VII</p>
+                          </div>
+                    </a>
+                    <a href="" class="flex items-start gap-4 p-2 -m-2 rounded-lg ">
+                        <img src="{{ asset('/build/assets/Hybrid.jpg') }}" class="h-16 w-16 rounded shadow-sm" alt="Aurtune Logo">
+                          <div>
+                            <p class="text-xs tracking-wider text-gray-600 uppercase">NILS LANDGREN</p>
+                            <p class="text-sm font-semibold text-black">Christmas with My Friends VII</p>
+                          </div>
+                    </a>
+                    <a href="" class="flex items-start gap-4 p-2 -m-2 rounded-lg ">
+                        <img src="{{ asset('/build/assets/Hybrid.jpg') }}" class="h-16 w-16 rounded shadow-sm" alt="Aurtune Logo">
+                          <div>
+                            <p class="text-xs tracking-wider text-gray-600 uppercase">NILS LANDGREN</p>
+                            <p class="text-sm font-semibold text-black">Christmas with My Friends VII</p>
+                          </div>
+                    </a>
+                    <a href="" class="flex items-start gap-4 p-2 -m-2 rounded-lg ">
+                        <img src="{{ asset('/build/assets/Hybrid.jpg') }}" class="h-16 w-16 rounded shadow-sm" alt="Aurtune Logo">
+                          <div>
+                            <p class="text-xs tracking-wider text-gray-600 uppercase">NILS LANDGREN</p>
+                            <p class="text-sm font-semibold text-black">Christmas with My Friends VII</p>
+                          </div>
+                    </a>
+                    <a href="" class="flex items-start gap-4 p-2 -m-2 rounded-lg ">
+                        <img src="{{ asset('/build/assets/Hybrid.jpg') }}" class="h-16 w-16 rounded shadow-sm" alt="Aurtune Logo">
+                          <div>
+                            <p class="text-xs tracking-wider text-gray-600 uppercase">NILS LANDGREN</p>
+                            <p class="text-sm font-semibold text-black">Christmas with My Friends VII</p>
+                          </div>
+                    </a>
+                    <a href="" class="flex items-start gap-4 p-2 -m-2 rounded-lg ">
+                        <img src="{{ asset('/build/assets/Hybrid.jpg') }}" class="h-16 w-16 rounded shadow-sm" alt="Aurtune Logo">
+                          <div>
+                            <p class="text-xs tracking-wider text-gray-600 uppercase">NILS LANDGREN</p>
+                            <p class="text-sm font-semibold text-black">Christmas with My Friends VII</p>
+                          </div>
+                    </a>
+                   </div>
+                </div>
+                <div class="bg-[#3A3A3A] p-6 text-center">
+                   <h1 class="text-[#C8A24A] font-display text-xl">English Albums</h1>
+                </div>
+                <div class="bg-[#f2f2f2] mx-auto max-w-6xl px-6 py-6">
+                   <div class="grid gap-x-10 gap-y-6 md:grid-cols-2 lg:grid-cols-3">
+                    <a href="" class="flex items-start gap-4 p-2 -m-2 rounded-lg ">
+                        <img src="{{ asset('/build/assets/Hybrid.jpg') }}" class="h-16 w-16 rounded shadow-sm" alt="Aurtune Logo">
+                          <div>
+                            <p class="text-xs tracking-wider text-gray-600 uppercase">NILS LANDGREN</p>
+                            <p class="text-sm font-semibold text-black">Christmas with My Friends VII</p>
+                          </div>
+                    </a>
+                    <a href="" class="flex items-start gap-4 p-2 -m-2 rounded-lg ">
+                        <img src="{{ asset('/build/assets/Hybrid.jpg') }}" class="h-16 w-16 rounded shadow-sm" alt="Aurtune Logo">
+                          <div>
+                            <p class="text-xs tracking-wider text-gray-600 uppercase">NILS LANDGREN</p>
+                            <p class="text-sm font-semibold text-black">Christmas with My Friends VII</p>
+                          </div>
+                    </a>
+                    <a href="" class="flex items-start gap-4 p-2 -m-2 rounded-lg ">
+                        <img src="{{ asset('/build/assets/Hybrid.jpg') }}" class="h-16 w-16 rounded shadow-sm" alt="Aurtune Logo">
+                          <div>
+                            <p class="text-xs tracking-wider text-gray-600 uppercase">NILS LANDGREN</p>
+                            <p class="text-sm font-semibold text-black">Christmas with My Friends VII</p>
+                          </div>
+                    </a>
+                    <a href="" class="flex items-start gap-4 p-2 -m-2 rounded-lg ">
+                        <img src="{{ asset('/build/assets/Hybrid.jpg') }}" class="h-16 w-16 rounded shadow-sm" alt="Aurtune Logo">
+                          <div>
+                            <p class="text-xs tracking-wider text-gray-600 uppercase">NILS LANDGREN</p>
+                            <p class="text-sm font-semibold text-black">Christmas with My Friends VII</p>
+                          </div>
+                    </a>
+                    <a href="" class="flex items-start gap-4 p-2 -m-2 rounded-lg ">
+                        <img src="{{ asset('/build/assets/Hybrid.jpg') }}" class="h-16 w-16 rounded shadow-sm" alt="Aurtune Logo">
+                          <div>
+                            <p class="text-xs tracking-wider text-gray-600 uppercase">NILS LANDGREN</p>
+                            <p class="text-sm font-semibold text-black">Christmas with My Friends VII</p>
+                          </div>
+                    </a>
+                    <a href="" class="flex items-start gap-4 p-2 -m-2 rounded-lg ">
+                        <img src="{{ asset('/build/assets/Hybrid.jpg') }}" class="h-16 w-16 rounded shadow-sm" alt="Aurtune Logo">
+                          <div>
+                            <p class="text-xs tracking-wider text-gray-600 uppercase">NILS LANDGREN</p>
+                            <p class="text-sm font-semibold text-black">Christmas with My Friends VII</p>
+                          </div>
+                    </a>
+                    <a href="" class="flex items-start gap-4 p-2 -m-2 rounded-lg ">
+                        <img src="{{ asset('/build/assets/Hybrid.jpg') }}" class="h-16 w-16 rounded shadow-sm" alt="Aurtune Logo">
+                          <div>
+                            <p class="text-xs tracking-wider text-gray-600 uppercase">NILS LANDGREN</p>
+                            <p class="text-sm font-semibold text-black">Christmas with My Friends VII</p>
+                          </div>
+                    </a>
+                    <a href="" class="flex items-start gap-4 p-2 -m-2 rounded-lg ">
+                        <img src="{{ asset('/build/assets/Hybrid.jpg') }}" class="h-16 w-16 rounded shadow-sm" alt="Aurtune Logo">
+                          <div>
+                            <p class="text-xs tracking-wider text-gray-600 uppercase">NILS LANDGREN</p>
+                            <p class="text-sm font-semibold text-black">Christmas with My Friends VII</p>
+                          </div>
+                    </a>
+                    <a href="" class="flex items-start gap-4 p-2 -m-2 rounded-lg ">
+                        <img src="{{ asset('/build/assets/Hybrid.jpg') }}" class="h-16 w-16 rounded shadow-sm" alt="Aurtune Logo">
+                          <div>
+                            <p class="text-xs tracking-wider text-gray-600 uppercase">NILS LANDGREN</p>
+                            <p class="text-sm font-semibold text-black">Christmas with My Friends VII</p>
+                          </div>
+                    </a>
+                    <a href="" class="flex items-start gap-4 p-2 -m-2 rounded-lg ">
+                        <img src="{{ asset('/build/assets/Hybrid.jpg') }}" class="h-16 w-16 rounded shadow-sm" alt="Aurtune Logo">
+                          <div>
+                            <p class="text-xs tracking-wider text-gray-600 uppercase">NILS LANDGREN</p>
+                            <p class="text-sm font-semibold text-black">Christmas with My Friends VII</p>
+                          </div>
+                    </a>
+                    <a href="" class="flex items-start gap-4 p-2 -m-2 rounded-lg ">
+                        <img src="{{ asset('/build/assets/Hybrid.jpg') }}" class="h-16 w-16 rounded shadow-sm" alt="Aurtune Logo">
+                          <div>
+                            <p class="text-xs tracking-wider text-gray-600 uppercase">NILS LANDGREN</p>
+                            <p class="text-sm font-semibold text-black">Christmas with My Friends VII</p>
+                          </div>
+                    </a>
+                    <a href="" class="flex items-start gap-4 p-2 -m-2 rounded-lg ">
+                        <img src="{{ asset('/build/assets/Hybrid.jpg') }}" class="h-16 w-16 rounded shadow-sm" alt="Aurtune Logo">
+                          <div>
+                            <p class="text-xs tracking-wider text-gray-600 uppercase">NILS LANDGREN</p>
+                            <p class="text-sm font-semibold text-black">Christmas with My Friends VII</p>
+                          </div>
+                    </a>
+                    <a href="" class="flex items-start gap-4 p-2 -m-2 rounded-lg ">
+                        <img src="{{ asset('/build/assets/Hybrid.jpg') }}" class="h-16 w-16 rounded shadow-sm" alt="Aurtune Logo">
+                          <div>
+                            <p class="text-xs tracking-wider text-gray-600 uppercase">NILS LANDGREN</p>
+                            <p class="text-sm font-semibold text-black">Christmas with My Friends VII</p>
+                          </div>
+                    </a>
+                   </div>
+                </div>
+            </section>
+
+            <section class="pt-10">
+                <div class="flex item-center justify-between">
+                    <h2 class="text-xl font-semibold">Popular Artists</h2>
+                    <a href="#" class="text-gray-500 text-sm hover:text-black">View all</a>
+                </div>
+
+                <div class="mt-4 divide-y rounded-sm border">
+                   <div class="flex items-center justify-between px-4 py-3 hover:bg-gray-50 transition-colors">
+                    <div class="flex items-center gap-3">
+                        <div class="h-10 w-10 rounded-lg bg-gray-200"><img src="{{ asset('/build/assets/hihi.jpg') }}" alt="" class="rounded-lg"></div>
+                        <div>
+                            <p class="text-sm font-medium">Michael Jackson</p>
+                        </div>
+                    </div>
+                   </div>
+                   <div class="flex items-center justify-between px-4 py-3 hover:bg-gray-50 transition-colors">
+                    <div class="flex items-center gap-3">
+                        <div class="h-10 w-10 rounded-lg bg-gray-200"><img src="{{ asset('/build/assets/hihi.jpg') }}" alt="" class="rounded-lg"></div>
+                        <div>
+                            <p class="text-sm font-medium">Michael Jackson</p>
+                        </div>
+                    </div>
+                   </div>
+                   <div class="flex items-center justify-between px-4 py-3 hover:bg-gray-50 transition-colors">
+                    <div class="flex items-center gap-3">
+                        <div class="h-10 w-10 rounded-lg bg-gray-200"><img src="{{ asset('/build/assets/hihi.jpg') }}" alt="" class="rounded-lg"></div>
+                        <div>
+                            <p class="text-sm font-medium">Michael Jackson</p>
+                        </div>
+                    </div>
+                   </div>
                 </div>
             </section>
     </div>
