@@ -55,7 +55,7 @@
           
         <section class="flex flex-col gap-6 border-b pb-12 w-full">
             <img src="{{ asset('/build/assets/aurtunelogo.png') }}" alt="Aurtune Logo" class="w-32 h-32 mx-auto mt-10">
-            <h1 class="text-4xl font-bold text-center mt-4">Discover-Music</h1>
+            <h1 class="text-4xl font-bold text-center mt-4 font-display">Discover-Music</h1>
             <p class="text-gray-600 text-center mt-1">Explore albums, artists, and tracks—smartly.</p>
         </section>
         

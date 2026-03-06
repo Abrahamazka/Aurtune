@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aurtune - Albums</title>
+    <title>Aurtune - Artists</title>
     <link rel="icon" href="{{ asset('/build/assets/aurtunelogo.png') }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,19 +17,19 @@
 <body class="bg-[#f2f2f2] min-h-screen">
 
     @php
-        $albums = [
-            ['title' => 'Midnight Jazz', 'artist' => 'Miles Carter', 'year' => '2024', 'genre' => 'Jazz'],
-            ['title' => 'Golden Echo', 'artist' => 'Luna Hart', 'year' => '2023', 'genre' => 'Pop'],
-            ['title' => 'Static Dreams', 'artist' => 'Nova Pulse', 'year' => '2024', 'genre' => 'Electronic'],
-            ['title' => 'Blue Notes', 'artist' => 'Ethan Miles', 'year' => '2022', 'genre' => 'Jazz'],
-            ['title' => 'Neon Highway', 'artist' => 'The Rivals', 'year' => '2021', 'genre' => 'Rock'],
-            ['title' => 'Soul Reflection', 'artist' => 'Ava Monroe', 'year' => '2024', 'genre' => 'Soul'],
-            ['title' => 'Vinyl Heart', 'artist' => 'Aria West', 'year' => '2023', 'genre' => 'Indie'],
-            ['title' => 'Moonlight Drive', 'artist' => 'Silver Lane', 'year' => '2022', 'genre' => 'Pop'],
-            ['title' => 'Classic Reverie', 'artist' => 'Leon Vance', 'year' => '2020', 'genre' => 'Classical'],
-            ['title' => 'Urban Spirit', 'artist' => 'Kai Turner', 'year' => '2024', 'genre' => 'Hip-Hop'],
-            ['title' => 'Broken Radio', 'artist' => 'Scarlet Noise', 'year' => '2021', 'genre' => 'Alternative'],
-            ['title' => 'Dawn Sessions', 'artist' => 'Aurora Blue', 'year' => '2023', 'genre' => 'Jazz'],
+        $artists = [
+            ['name' => 'Aurtune Collective', 'genre' => 'Jazz', 'albums' => 12, 'tracks' => 58],
+            ['name' => 'Luna Hart', 'genre' => 'Pop', 'albums' => 8, 'tracks' => 37],
+            ['name' => 'Nova Pulse', 'genre' => 'Electronic', 'albums' => 6, 'tracks' => 29],
+            ['name' => 'Miles Carter', 'genre' => 'Jazz', 'albums' => 10, 'tracks' => 44],
+            ['name' => 'The Rivals', 'genre' => 'Rock', 'albums' => 7, 'tracks' => 33],
+            ['name' => 'Ava Monroe', 'genre' => 'Soul', 'albums' => 5, 'tracks' => 24],
+            ['name' => 'Silver Lane', 'genre' => 'Indie', 'albums' => 9, 'tracks' => 41],
+            ['name' => 'Leon Vance', 'genre' => 'Classical', 'albums' => 11, 'tracks' => 52],
+            ['name' => 'Kai Turner', 'genre' => 'Hip-Hop', 'albums' => 4, 'tracks' => 21],
+            ['name' => 'Scarlet Noise', 'genre' => 'Alternative', 'albums' => 6, 'tracks' => 30],
+            ['name' => 'Aurora Blue', 'genre' => 'Jazz', 'albums' => 7, 'tracks' => 35],
+            ['name' => 'Charlie North', 'genre' => 'Pop', 'albums' => 5, 'tracks' => 27],
         ];
     @endphp
 
@@ -40,9 +40,9 @@
                  <a href="#"><img src="{{ asset('/build/assets/Aurtune-tagline.png') }}" alt="Aurtune Logo" class="w-44 h-28"></a>
                  <div >
                      <a href="/home" class="text-black hover:text-blue-300 px-5">Home</a>
-                     <a href="/albums" class="font-semibold text-black hover:text-blue-500 px-5">Albums</a>
+                     <a href="/albums" class="text-black hover:text-blue-500 px-5">Albums</a>
                      <a href="/songs" class="text-black hover:text-blue-300 px-5">Songs</a>
-                     <a href="/artists" class="text-black hover:text-blue-500 px-5">Artists</a>
+                     <a href="/artists" class="font-semibold text-black hover:text-blue-500 px-5">Artists</a>
                      <a href="/about" class="text-black hover:text-blue-500 px-5">About us</a>
                      <a href="/account" class="text-black hover:text-blue-500 px-5">My account</a>
                     </div>
@@ -53,22 +53,46 @@
         <p class="text-sm text-gray-500">
             <a href="/home" class="hover:text-black transition-colors">Home</a>
             <span class="mx-2">></span>
-            <span class="text-black">Albums</span>
+            <span class="text-black">Artists</span>
         </p>
 
      <div class="mt-3 flex flex-col md:flex-row md:items-end md:justify-between gap-4">
         <div>
-            <h1 class="text-4xl font-bold tracking-tight font-display">Albums</h1>
-            <p class="text-gray-600 mt-2">Discover the latest and greatest albums from your favorite artists.</p>
+            <h1 class="text-4xl font-bold tracking-tight font-display">Artists</h1>
+            <p class="text-gray-600 mt-2">Discover a curated lineup of artists across genres, moods, and timeless musical styles.</p>
         </div>
         <form action="/search" method="GET" class="ml-auto">
                 <div class="relative">
-                    <input type="text" name="q" placeholder="Search albums... " class="w-full rounded-md border border-gray-300 bg-white py-2 pl-5 pr-24 text-sm outline-none focus:border-black">
+                    <input type="text" name="q" placeholder="Search artists... " class="w-full rounded-md border border-gray-300 bg-white py-2 pl-5 pr-24 text-sm outline-none focus:border-black">
                     <button type="submit" class="absolute right-1 top-1/2 -translate-y-1/2 rounded-md bg-black px-4 py-1.5 text-sm text-white transition-all duration-300 hover:bg-gray-800">Search</button>
                 </div>
         </form>
      </div>
     </section>
+
+    <section class="px-6 py-8 border-b border-gray-200">
+        <div class="flex items-center justify-between">
+            <h2 class="text-2xl font-semibold">Top Artists</h2>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
+            <a href="#" class="border rounded-lg border-gray-200 p-5 hover:bg-gray-50 transition-colors">
+                <p class="text-xs uppercase tracking-[0.3em] text-gray-500">Pop</p>
+                <h3 class="text-xl font-semibold mt-2">Michael Jackson</h3>
+                <p class="text-sm text-gray-600 mt-2">12 Albums &bull; 56 Tracks</p>
+            </a>
+            <a href="#" class="border rounded-lg border-gray-200 p-5 hover:bg-gray-50 transition-colors">
+                <p class="text-xs uppercase tracking-[0.3em] text-gray-500">Pop</p>
+                <h3 class="text-xl font-semibold mt-2">Michael Jackson</h3>
+                <p class="text-sm text-gray-600 mt-2">12 Albums &bull; 56 Tracks</p>
+            </a>
+            <a href="#" class="border rounded-lg border-gray-200 p-5 hover:bg-gray-50 transition-colors">
+                <p class="text-xs uppercase tracking-[0.3em] text-gray-500">Pop</p>
+                <h3 class="text-xl font-semibold mt-2">Michael Jackson</h3>
+                <p class="text-sm text-gray-600 mt-2">12 Albums &bull; 56 Tracks</p>
+            </a>
+        </div>
+    </section>
+
 
     <section class="px-3 py-2 border-b border-gray-200">
         <div class=" mx-auto flex items-center justify-between gap-5 px-6">
@@ -81,7 +105,7 @@
                 <button class="px-3 py-1 transition-all duration-100 hover:font-bold">Classical</button>
             </div>
             <div class="flex items-center gap-3 text-sm">
-                <span class="text-gray-500">12 Albums</span>
+                <span class="text-gray-500">12 Artists</span>
 
                 <select name="sort" id="sort" class="border rounded-md border-gray-300 py-1 px-2 outline-none focus:border-black">
                     <option value="newest">Newest</option>
@@ -94,13 +118,13 @@
 
     <section class="px-6 py-8">
         <div class="grid grid-cols-2 sm:grid-cols3 lg:grid-cols4 xl:grid-cols-5 gap-x-5 gap-y-8">
-            @foreach ($albums as $album)
+            @foreach ($artists as $artist)
              <a href="#" class="group block">
                 <div class="aspect-square w-full overflow-hidden rounded-lg bg-gray-200">
-                    <img src="{{ asset('/build/assets/album-placeholder.png') }}" alt="{{ $album['title'] }} Album Cover" class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105">
+                    <img src="{{ asset('/build/assets/album-placeholder.png') }}" alt="{{ $artist['name'] }} Artist Image" class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105">
                 </div>
-                <h3 class="mt-4 text-sm font-semibold text-gray-900">{{ $album['title'] }}</h3>
-                <p class="text-sm text-gray-500">{{ $album['artist'] }} &bull; {{ $album['genre'] }} &bull; {{ $album['year'] }}</p>
+                <h3 class="mt-4 text-sm font-semibold text-gray-900">{{ $artist['name'] }}</h3>
+                <p class="text-sm text-gray-500">{{ $artist['genre'] }} &bull; {{ $artist['albums'] }} Albums &bull; {{ $artist['tracks'] }} Tracks</p>
              </a>
             @endforeach
         </div>
