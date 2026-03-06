@@ -95,7 +95,7 @@
     <section class="px-6 py-8">
         <div class="grid grid-cols-2 sm:grid-cols3 lg:grid-cols4 xl:grid-cols-5 gap-x-5 gap-y-8">
             @foreach ($albums as $album)
-             <a href="#" class="group block">
+             <a href="/albumdetails" class="group block">
                 <div class="aspect-square w-full overflow-hidden rounded-lg bg-gray-200">
                     <img src="{{ asset('/build/assets/album-placeholder.png') }}" alt="{{ $album['title'] }} Album Cover" class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105">
                 </div>
