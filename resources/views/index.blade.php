@@ -21,19 +21,20 @@
         <div class="r mx-auto flex items-center justify-between">
             <a href="#"><img src="{{ asset('/build/assets/Aurtune-tagline.png') }}" alt="Aurtune Logo" class="w-44 h-28"></a>
             <div >
-                <a href="#" class="font-semibold text-black hover:text-blue-300 px-5">Albums</a>
-                <a href="#" class="font-semibold text-black hover:text-blue-500 px-5">Songs</a>
-                <a href="#" class="font-semibold text-black hover:text-blue-500 px-5">Artists</a>
-                <a href="#" class="font-semibold text-black hover:text-blue-500 px-5">About us</a>
-                <a href="#" class="font-semibold text-black hover:text-blue-500 px-5">My account</a>
+                <a href="#" class="font-semibold text-black hover:text-blue-300 px-5">Home</a>
+                <a href="#" class="text-black hover:text-blue-300 px-5">Albums</a>
+                <a href="#" class="text-black hover:text-blue-500 px-5">Songs</a>
+                <a href="#" class="text-black hover:text-blue-500 px-5">Artists</a>
+                <a href="#" class="text-black hover:text-blue-500 px-5">About us</a>
+                <a href="#" class="text-black hover:text-blue-500 px-5">My account</a>
             </div>
         </div>
     </nav>
     <hr>
 
-    <section>
+    <section class="px-3 py-2">
         <div class=" mx-auto flex items-center gap-5 px-6">
-            <p class="p-3 font-bold">Categories :</p> 
+            <p class="p-3 font-bold">Genres :</p> 
             <div class="gap-none">
                 <button class="px-3 py-1 transition-all duration-100 hover:font-bold">Jazz</button> 
                 <button class="px-3 py-1 transition-all duration-100 hover:font-bold">Rock</button> 
@@ -43,8 +44,8 @@
             </div>
             <form action="/search" method="GET" class="ml-auto">
                 <div class="relative">
-                    <input type="text" name="q" placeholder="Search songs, albums, g... " class="w-full rounded-full border border-gray-300 bg-white py-2 pl-10 pr-24 text-sm outline-none focus:border-black">
-                    <button type="submit" class="absolute right-1 top-1/2 -translate-y-1/2 rounded-full bg-black px-4 py-1.5 text-sm text-white transition-all duration-300 hover:bg-gray-800">Search</button>
+                    <input type="text" name="q" placeholder="Search songs, albums, genr... " class="w-full rounded-md border border-gray-300 bg-white py-2 pl-5 pr-24 text-sm outline-none focus:border-black">
+                    <button type="submit" class="absolute right-1 top-1/2 -translate-y-1/2 rounded-md bg-black px-4 py-1.5 text-sm text-white transition-all duration-300 hover:bg-gray-800">Search</button>
                 </div>
             </form>
         </div>
@@ -414,7 +415,7 @@
                 <a href="#" class="text-gray-300 hover:text-white transition-colors">Contact Us</a>
             </div>
         </div>
-    
+      </footer>
 
             
 </body>
