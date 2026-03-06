@@ -361,8 +361,61 @@
                     </div>
                    </div>
                 </div>
-            </section>
+            </section>      
     </div>
 </div>
+    <footer class="bg-[#3A3A3A] text-white">
+        <div>
+            <img src="{{ asset('/build/assets/aurno2.png') }}" alt="Aurtune Logo" class="w-44 h-28 mx-auto">
+        </div>
+        <div class="mx-auto max-w-6xl text-center border-t border-white/20 pt-8 pb-8">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-20 text-left">
+                <div>
+                    <h4 class="text-white text-sm font-semibold tracking-wide">NEED HELP</h4>
+                    <ul class="mt-4 space-y-3 text-sm">
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors">Support</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors">FAQs</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-white text-sm font-semibold tracking-wide">COMPANY</h4>
+                    <ul class="mt-4 space-y-3 text-sm">
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors">About Us</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors">Careers</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-white text-sm font-semibold tracking-wide">AURTUNE</h4>
+                    <ul class="mt-4 space-y-3 text-sm">
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors">About Us</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors">Careers</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-white text-sm font-semibold tracking-wide">FOLLOW US</h4>
+                    <ul class="mt-4 space-y-3 text-sm">
+                        <li><a href="#" class="flex items-center gap-2 text-gray-300 hover:text-white transition-colors"><img src="{{ asset('/build/assets/tiktok.png') }}" alt="Tiktok" class="inline-flex h-6 w-6 items-center justify-center">Tiktok</a></li>
+                        <li><a href="#" class="flex items-center gap-2 text-gray-300 hover:text-white transition-colors"><img src="{{ asset('/build/assets/youtube.png') }}" alt="Youtube" class="inline-flex h-6 w-6 items-center justify-center">Youtube</a></li>
+                        <li><a href="#" class="flex items-center gap-2 text-gray-300 hover:text-white transition-colors"><img src="{{ asset('/build/assets/instagram.png') }}" alt="Instagram" class="inline-flex h-6 w-6 items-center justify-center">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="mx-auto max-w-6xl px-6 text-center border-t border-white/20 pt-8">
+            <p class="text-sm">&copy; 2026 Aurtune. All rights reserved.</p>
+            <div class="mt-4 flex justify-center gap-6">
+                <a href="#" class="text-gray-300 hover:text-white transition-colors">Privacy Policy</a>
+                <a href="#" class="text-gray-300 hover:text-white transition-colors">Terms of Service</a>
+                <a href="#" class="text-gray-300 hover:text-white transition-colors">Contact Us</a>
+            </div>
+        </div>
+    
+
+            
 </body>
 </html>
