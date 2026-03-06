@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your musical tastes</title>
+    <title>Aurtune - Your musical tastes</title>
     <link rel="icon" href="{{ asset('/build/assets/aurtunelogo.png') }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,12 +21,12 @@
         <div class="r mx-auto flex items-center justify-between">
             <a href="#"><img src="{{ asset('/build/assets/Aurtune-tagline.png') }}" alt="Aurtune Logo" class="w-44 h-28"></a>
             <div >
-                <a href="#" class="font-semibold text-black hover:text-blue-300 px-5">Home</a>
-                <a href="#" class="text-black hover:text-blue-300 px-5">Albums</a>
-                <a href="#" class="text-black hover:text-blue-500 px-5">Songs</a>
-                <a href="#" class="text-black hover:text-blue-500 px-5">Artists</a>
-                <a href="#" class="text-black hover:text-blue-500 px-5">About us</a>
-                <a href="#" class="text-black hover:text-blue-500 px-5">My account</a>
+                <a href="/home" class="font-semibold text-black hover:text-blue-300 px-5">Home</a>
+                <a href="/albums" class="text-black hover:text-blue-300 px-5">Albums</a>
+                <a href="/songs" class="text-black hover:text-blue-500 px-5">Songs</a>
+                <a href="/artists" class="text-black hover:text-blue-500 px-5">Artists</a>
+                <a href="/about" class="text-black hover:text-blue-500 px-5">About us</a>
+                <a href="/account" class="text-black hover:text-blue-500 px-5">My account</a>
             </div>
         </div>
     </nav>

@@ -8,3 +8,6 @@ Route::get('/home', function () {
 Route::get('/albums', function () {
     return view('albums');
 });
+Route::get('/albumdetails', function () {
+    return view('albumdetails');
+});
