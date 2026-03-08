@@ -17,3 +17,9 @@ Route::get('/artists', function () {
 Route::get('/artistdetails', function () {
     return view('artistdetails');
 });
+Route::get('/songs', function () {
+    return view('songs');
+});
+Route::get('/', function () {
+    return view('');
+});
