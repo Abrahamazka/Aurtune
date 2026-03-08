@@ -20,6 +20,9 @@ Route::get('/artistdetails', function () {
 Route::get('/songs', function () {
     return view('songs');
 });
+Route::get('/songdetails', function () {
+    return view('songdetails');
+});
 Route::get('/', function () {
     return view('');
 });

@@ -73,7 +73,7 @@
             <h2 class="text-2xl font-semibold">Quick Picks</h2>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
-            <a href="#" class="border rounded-none border-gray-200 p-5 hover:bg-gray-50 transition-colors">
+            <a href="/songdetails" class="border rounded-none border-gray-200 p-5 hover:bg-gray-50 transition-colors">
                 <img src="{{ asset('/build/assets/back.jpg') }}" alt="Album Art" class="h-60 w-full object-cover rounded-none mb-4"></img>
                 <p class="text-xs uppercase tracking-[0.3em] text-gray-500">Alternatif/Indie</p>
                 <h3 class="text-xl font-semibold mt-2">Back to friends &bull; Sombr</h3>
