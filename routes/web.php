@@ -23,6 +23,6 @@ Route::get('/songs', function () {
 Route::get('/songdetails', function () {
     return view('songdetails');
 });
-Route::get('/', function () {
-    return view('');
+Route::get('/search', function () {
+    return view('search');
 });
