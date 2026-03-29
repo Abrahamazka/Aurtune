@@ -25,8 +25,7 @@
                 <a href="/albums" class="text-black hover:text-blue-300 px-5">Albums</a>
                 <a href="/songs" class="text-black hover:text-blue-500 px-5">Songs</a>
                 <a href="/artists" class="text-black hover:text-blue-500 px-5">Artists</a>
-                <a href="/about" class="text-black hover:text-blue-500 px-5">About us</a>
-                <a href="/account" class="text-black hover:text-blue-500 px-5">My account</a>
+                <a href="/myaccount" class="text-black hover:text-blue-500 px-5">My account</a>
             </div>
         </div>
     </nav>

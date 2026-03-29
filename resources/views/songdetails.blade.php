@@ -59,7 +59,7 @@
                 <p class="text-gray-700 mt-6">An emotional indie-pop song (2025) exploring the painful, awkward, and often impossible transition from an intimate relationship back to platonic friendship</p>
                 <div class="mt-4 flex flex-wrap gap-3">
                     <a href="/artists" class="rounded-md bg-black text-white/90 text-sm px-4 py-3 hover:bg-gray-800 transition-colors">Back to Songs</a>
-                    <a href="/albums" class="rounded-md bg-gray-200 text-gray-800 text-sm px-4 py-3 hover:bg-gray-300 transition-colors ml-4">View Album</a>
+                    <a href="/albumdetails" class="rounded-md bg-gray-200 text-gray-800 text-sm px-4 py-3 hover:bg-gray-300 transition-colors ml-4">View Album</a>
                     <a href="/artistdetails" class="rounded-md bg-gray-200 text-gray-800 text-sm px-4 py-3 hover:bg-gray-300 transition-colors ml-4">View Artist</a>
                 </div>
             </div>

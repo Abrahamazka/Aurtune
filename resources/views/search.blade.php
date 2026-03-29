@@ -142,7 +142,7 @@
         <div class="grid grid-cols-2 sm:grid-cols3 lg:grid-cols4 xl:grid-cols-5 gap-x-5 gap-y-8 mt-6">
             @foreach ($artists as $artist)
              <a href="/artistdetails" class="group block">
-                <div class="aspect-square w-full overflow-hidden rounded-lg bg-gray-200">
+                <div class="aspect-square w-full overflow-hidden rounded-full bg-gray-200">
                     <img src="{{ asset('/build/assets/album-placeholder.png') }}" alt="{{ $artist['name'] }} Artist Image" class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105">
                 </div>
                 <h3 class="mt-4 text-sm font-semibold text-gray-900">{{ $artist['name'] }}</h3>

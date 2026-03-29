@@ -46,7 +46,7 @@
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
             <div class="lg:col-span-4">
                 <div class="overflow-hidden rounded-md bg-gray-200 shadow-sm">
-                    <img src="{{ asset('/build/assets/123.jpg') }}" alt="Midnight Jazz Sessions Album Cover" class="w-full h-full object-cover">
+                    <img src="{{ asset('/build/assets/hihi.jpg') }}" alt="Midnight Jazz Sessions Album Cover" class="w-full h-full object-cover">
                 </div>
             </div>
             <div class="lg:col-span-8">
@@ -62,7 +62,7 @@
                         one of the standout names in Aurtune’s curated catalog.</p>
                 <div class="mt-4 flex flex-wrap gap-3">
                     <a href="/artists" class="rounded-md bg-black text-white/90 text-sm px-4 py-3 hover:bg-gray-800 transition-colors">Back to Artists</a>
-                    <a href="/albums" class="rounded-md bg-gray-200 text-gray-800 text-sm px-4 py-3 hover:bg-gray-300 transition-colors ml-4">View Albums</a>
+                    <a href="/albumdetails" class="rounded-md bg-gray-200 text-gray-800 text-sm px-4 py-3 hover:bg-gray-300 transition-colors ml-4">View Albums</a>
                 </div>
             </div>
         </div>
